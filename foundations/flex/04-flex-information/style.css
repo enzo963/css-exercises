@@ -24,3 +24,48 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+
+
+
+
+
+
+.info-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+
+.info-title .title {
+  flex: 0;
+  align-self: flex-end;
+}
+
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 52px;
+  flex-wrap: wrap;
+
+}
+
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 52px;
+  flex-wrap: wrap;
+}
