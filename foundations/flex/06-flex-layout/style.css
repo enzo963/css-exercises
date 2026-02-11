@@ -24,3 +24,114 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* ==========1========== */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  gap: 12px
+}
+
+.header .left-links {
+  list-style-type: none;
+
+}
+
+.header .left-links li a {
+  text-decoration: none;
+  color: silver;
+
+}
+
+.right-links {
+  display: flex;
+  gap: 12px;
+}
+
+.header .right-links {
+  list-style-type: none;
+
+}
+
+.header .right-links li a {
+  text-decoration: none;
+  color: silver;
+
+}
+
+
+/* ==========2========== */
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+.content input {
+  margin-bottom: 15px;
+}
+
+.content .buttons button {
+  padding: 10px;
+}
+
+
+/* ==========3========== */
+
+.footer {
+  background: rgb(255, 239, 239);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .left-links {
+  list-style-type: none;
+}
+
+.footer .left-links li a {
+  text-decoration: none;
+  color: silver;
+}
+
+.left-links {
+  display: flex;
+  gap: 12px;
+}
+
+.footer .right-links {
+  list-style-type: none;
+}
+
+.footer .right-links li a {
+  text-decoration: none;
+  color: silver;
+}
+
+.right-links {
+  display: flex;
+  gap: 12px;
+}
+
+/* ==========4=========== */
+.left-links,
+.right-links {
+  padding: 0px;
+  margin: 18px;
+}

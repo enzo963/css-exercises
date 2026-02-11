@@ -69,9 +69,54 @@ button.cancel {
   color: royalblue;
 }
 
-
+/* ======================= */
 
 .modal {
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-weight: bold;
+}
+
+
+.modal .three-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icone {
+  flex-shrink: 0;
+}
+
+
+.model-body {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+
+.three-under {
+  display: flex;
+  flex-direction: column;
+  padding-left: 62px;
+  gap: 8px;
+}
+
+
+
+/* .modal {
   padding: 10px 20px;
 }
 
@@ -102,4 +147,4 @@ button.cancel {
   padding-left: 55px;
   gap: 5px;
   flex-shrink: 0;
-}
+} */
