@@ -29,8 +29,90 @@ body {
 }
 
 /* ========== 1 ========== */
+/* Sloution Number 1 */
 
-.maincontainer {
+body {
+  margin: 0px;
+  min-height: 100vh;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* Header */
+.header {
+  height: 72px;
+  font-size: 32px;
+  padding-left: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+
+/* MAIN AREA */
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+/* SIDEBAR */
+
+.main .sidebar {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.sidebar ul li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+/* CARDS SECTION */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 48px;
+  flex: 1;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  width: 300px;
+  padding: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/*Sloution Number 2*/
+/* ========== 1 ========== */
+
+/* .maincontainer {
   display: flex;
   flex-direction: row;
 }
@@ -44,11 +126,11 @@ body {
   padding-top: 24px;
   padding-left: 20px;
   font-size: 35px;
-}
+} */
 
 /* ========== 2 ========== */
 
-.sidebar {
+/* .sidebar {
   display: flex;
   width: 500px;
   align-items: self-start;
@@ -70,13 +152,13 @@ body {
   text-decoration: none;
   flex: 1;
   color: white;
-}
+} */
 
 
 
 /* ========== 3 ========== */
 
-.cards {
+/* .cards {
   display: flex;
   gap: 40px;
   margin-top: 50px;
@@ -97,14 +179,12 @@ body {
   padding-bottom: 15px;
   padding-right: 15px;
 
-}
+} */
+
 
 /* ========== 4 ========== */
 
-
-/* ========== 5 ========== */
-
-.conter-footer {
+/* .conter-footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,4 +193,4 @@ body {
 .conter-footer .footer {
   flex: 1 1 auto;
   align-self: center;
-}
+} */
