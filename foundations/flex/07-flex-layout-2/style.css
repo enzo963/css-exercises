@@ -30,19 +30,87 @@ body {
 
 /* ========== 1 ========== */
 
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
 .header {
   font-weight: bold;
-  padding: 10px 10px;
+  padding-top: 24px;
+  padding-left: 20px;
   font-size: 35px;
 }
 
 /* ========== 2 ========== */
 
+.sidebar {
+  display: flex;
+  width: 500px;
+  align-items: self-start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.sidebar ul {
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  flex: 1;
+  color: white;
+}
+
+
 
 /* ========== 3 ========== */
 
+.cards {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+.card {
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 350px;
+  height: 300px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+
+}
 
 /* ========== 4 ========== */
 
 
 /* ========== 5 ========== */
+
+.conter-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conter-footer .footer {
+  flex: 1 1 auto;
+  align-self: center;
+}
